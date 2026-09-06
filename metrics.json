@@ -1,0 +1,95 @@
+{
+ "updated_at": "2026-09-06T20:08:42+00:00",
+ "account": "988945020801127",
+ "window": "today",
+ "ads": [
+  {
+   "ad_id": "52513543254402",
+   "name": "Ad1 | 3 месеца сън | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.34,
+   "spend": 1.72,
+   "impressions": 425,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543257602",
+   "name": "Ad2 | Urgency 15 септ | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.35,
+   "spend": 4.53,
+   "impressions": 1047,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543269002",
+   "name": "Ad3 | Kakvo pechelya | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": null,
+   "spend": 0.06,
+   "impressions": 24,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543277202",
+   "name": "Ad4 | Plashtash 2 vzimash 3 | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.2,
+   "spend": 1.4,
+   "impressions": 334,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543283802",
+   "name": "Ad5 | Podaruk | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.74,
+   "spend": 1.48,
+   "impressions": 370,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543314402",
+   "name": "Ad6 | Sport lqtna | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.52,
+   "spend": 0.52,
+   "impressions": 103,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543338202",
+   "name": "Ad7 | Iskrivena pregrada | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": null,
+   "spend": 0.23,
+   "impressions": 44,
+   "results": 0
+  },
+  {
+   "ad_id": "52513543347002",
+   "name": "Ad8 | Chista stoynost | PDP",
+   "status": "Running",
+   "cpa": null,
+   "roas": null,
+   "cpc": 0.26,
+   "spend": 0.26,
+   "impressions": 96,
+   "results": 0
+  }
+ ]
+}
