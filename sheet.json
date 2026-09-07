@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-07T19:43:20+00:00",
+ "updated_at": "2026-09-07T19:52:24+00:00",
  "account": "988945020801127",
  "window": "maximum",
  "rows": [
@@ -243,6 +243,38 @@
    "kind": "creative",
    "framework": "BAB",
    "copy": "Преди: буден в 3 през нощта, дишаш през уста, сутрин с тежка глава.\n\nСлед: три месеца нощи, в които не се будиш нито веднъж.\n\nМежду тях — една лепенка на нощното шкафче, сложена за 3 секунди.\n\nВземи 2, получи 1 безплатно.\n👉 https://noseway.bg/produkti/lepenki-za-nos/"
+  },
+  {
+   "key": "cr-1",
+   "name": "1 Кутия-подарък (по „Купи 3, кремът е подарък\")",
+   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-07/1-kutiya-podarak-po-kupi-3-kremat-e-podarak.jpg",
+   "status": "On hold",
+   "cpa": null,
+   "roas": null,
+   "cpc": null,
+   "spend": null,
+   "impressions": null,
+   "results": null,
+   "kind": "creative",
+   "framework": "",
+   "copy": "",
+   "reworked": false
+  },
+  {
+   "key": "cr-3",
+   "name": "3 Луксозна кутия с панделка (по „2 серума и крем подарък\")",
+   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-07/3-luksozna-kutiya-s-pandelka-po-2-seruma-i-krem-podarak.jpg",
+   "status": "On hold",
+   "cpa": null,
+   "roas": null,
+   "cpc": null,
+   "spend": null,
+   "impressions": null,
+   "results": null,
+   "kind": "creative",
+   "framework": "",
+   "copy": "",
+   "reworked": false
   }
  ]
 }
