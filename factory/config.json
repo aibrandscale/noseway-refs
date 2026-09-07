@@ -1,0 +1,36 @@
+{
+  "model": "nano-banana-pro",
+  "aspect_ratio": "1:1",
+  "output_format": "png",
+  "per_day": 10,
+  "monthly_cap": 300,
+  "products": {
+    "mouth": {
+      "enabled": true,
+      "share": 5,
+      "refs": [
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/mouth/pack/mouth-strips-pack.png",
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/mouth/strip/month-strips.png"
+      ]
+    },
+    "nose": {
+      "enabled": true,
+      "share": 5,
+      "refs": [
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/nose/pack/nose-strips-pack.png",
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/nose/strip/nose-strips.png"
+      ]
+    },
+    "kids": {
+      "enabled": false,
+      "share": 3,
+      "refs": [
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/kids/pack/kid-strips-pack.png",
+        "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/kids/strip/kid-strips.png"
+      ],
+      "_note": "чака референции в refs/kids/ и собствен PROMPTS.md"
+    }
+  },
+  "final_size": 1080,
+  "resolution": "1K"
+}
