@@ -1,0 +1,48 @@
+name: Noseway topup (генериране на креативи)
+
+# Пълни BOFU креативите до 10 онлайн, на инфраструктурата на GitHub (стига kie.ai).
+# Върви на всеки час, изместено с 10 мин след почасовата облачна задача (:41),
+# за да е дръпнала тя първо отхвърлените. Може и ръчно (workflow_dispatch).
+
+on:
+  schedule:
+    - cron: "51 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noseway-topup
+  cancel-in-progress: false
+
+jobs:
+  topup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Инсталирай Pillow
+        run: pip install --quiet Pillow
+
+      - name: Допълни креативите
+        env:
+          KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
+        run: python3 scripts/topup.py
+
+      - name: Публикувай новите креативи
+        run: |
+          git config user.name  "noseway-bot"
+          git config user.email "noseway-bot@users.noreply.github.com"
+          git add creatives-*/ sheet.json factory/state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "няма промени за комит"
+          else
+            git commit -m "topup: нови креативи за преглед (GitHub Actions)"
+            git pull --rebase --autostash
+            git push
+          fi
