@@ -408,6 +408,11 @@
     "n": 51,
     "title": "Две колони",
     "prompt": "Square 1:1. Split down the middle by a thin vertical rule.\nLEFT column on muted grey #d8dade, flat and desaturated: a small grey label pill reading\n\"БЕЗ ЛЕПЕНКА\", and beneath it three rows of grey ✕ marks with short ink #353030 text:\n\"Хъркане\" / \"Събуждане нощем\" / \"Уморена сутрин\"\nRIGHT column on light blue #97c4d5, bright: a royal blue #2b52a1 label pill with white\ntext reading \"С ЛЕПЕНКА\", and beneath it three rows of white checkmarks in royal blue\ncircles with deep navy text:\n\"Тихи нощи\" / \"Спиш до сутринта\" / \"Ставаш отпочинал\"\nBottom of the right column: three packs in a small row.\nTOP, spanning both columns, heavy uppercase deep navy: \"РАЗЛИКАТА Е ЕДНА ЛЕПЕНКА\"\nBOTTOM: a solid royal blue bar, centred heavy uppercase white:\n\"ВЗЕМИ 2 ПОЛУЧИ 1 БЕЗПЛАТНО\"\nOffer badge: not needed — the headline carries the offer. Do not add a separate sticker.\nKeep every word large; small text is where letters break. Bulgarian Cyrillic only.\nEvery pack must match IMG 1 exactly — real packaging, not a redesign. Do NOT show a\nloose strip anywhere. Keep the pack's own colours; the palette applies to the scene only."
+   },
+   {
+    "n": 52,
+    "title": "Чист студио герой — свободен нос цяла нощ",
+    "prompt": "(studio single-hero, added manually for a vetted generation)"
    }
   ]
  }
