@@ -102,9 +102,11 @@ function syncNoseway(){
       if(oldLast>body.length+4)sh.getRange(body.length+5,1,oldLast-body.length-4,14).clearContent();
     }
     sh.getRange(5,1,body.length,14).setValues(body);
+    sh.getRange(5,1,body.length,11).clearFormat().clearNote();
     sh.getRange('L1').setValue('noseway-v2');
     sh.getRange('A1:K1').merge().setValue('NOSEWAY · BOFU РЕКЛАМИ').setBackground('#163343').setFontColor('#ffffff').setFontSize(16).setFontWeight('bold');
     sh.getRange('A2').setValue('Период');
+    sh.getRange('A2:K3').setBackground('#ffffff').setFontColor('#243748').setFontWeight('normal').setHorizontalAlignment('left');
     const options=['Whole period',...Object.keys(daily.dates||{}).sort().reverse().map(nwLabel_)];
     sh.getRange('B2').setNumberFormat('@').setValue(selected==='Whole period'?selected:nwLabel_(selected)).setBackground('#dce7fb').setFontColor('#163343').setFontWeight('bold')
       .setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(options,true).setAllowInvalid(true).build())
@@ -119,7 +121,7 @@ function syncNoseway(){
     const apprRule=SpreadsheetApp.newDataValidation().requireValueInList(NW_APPROVALS,true).setAllowInvalid(false).build();
     entries.forEach((e,i)=>{
       const n=i+5,range=sh.getRange(n,1,1,11);
-      if(e.section){range.merge().setBackground('#dce7fb').setFontColor('#163343').setFontWeight('bold');sh.setRowHeight(n,34);return;}
+      if(e.section){range.merge().setBackground('#dce7fb').setFontColor('#163343').setFontWeight('bold');sh.getRange(n,1).setRichTextValue(SpreadsheetApp.newRichTextValue().setText(e.section).build());sh.setRowHeight(n,34);return;}
       const r=e.row;range.setBackground(i%2?'#ffffff':'#f3f6fa').setFontColor('#243748').setFontSize(10).setFontWeight('normal');
       sh.setRowHeight(n,r.kind==='creative'?150:32);
       sh.getRange(n,3).setWrap(true).setVerticalAlignment('top').setFontSize(9);
@@ -128,7 +130,7 @@ function syncNoseway(){
         sh.getRange(n,2).setFormula('=IMAGE("'+r.link+'")');
         sh.getRange(n,1).setRichTextValue(SpreadsheetApp.newRichTextValue().setText(r.name).setLinkUrl(r.link).build());
         sh.getRange(n,4).setDataValidation(apprRule).setNote(r.link);
-      }else{sh.getRange(n,2).setValue('—');sh.getRange(n,4).clearDataValidations();}
+      }else{sh.getRange(n,1).setRichTextValue(SpreadsheetApp.newRichTextValue().setText(r.name).build()).setNote('Meta ad ID: '+r.key);sh.getRange(n,2).setValue('—');sh.getRange(n,4).clearDataValidations();}
       sh.getRange(n,5).setNumberFormat('0');[6,8,9].forEach(c=>sh.getRange(n,c).setNumberFormat('$#,##0.00'));sh.getRange(n,7).setNumberFormat('0.00');
     });
     if(structural){
