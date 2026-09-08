@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+const ctx={Date,Utilities:{formatDate:()=>{throw Error('unexpected date object')}},SpreadsheetApp:{openById:()=>({getSpreadsheetTimeZone:()=> 'Europe/Sofia'})}};
+vm.createContext(ctx);vm.runInContext(fs.readFileSync('sheets/noseway.gs','utf8'),ctx);
+assert.equal(ctx.nwDate_('09/08/2026'),'2026-08-09');
+assert.equal(ctx.nwDate_('Whole period'),'Whole period');
+assert.throws(()=>ctx.nwDate_('31/02/2026'));
+assert.throws(()=>ctx.nwValidate_({rows:[]}));
+assert.throws(()=>ctx.nwValidate_({rows:{}}));
+assert.throws(()=>ctx.nwValidate_({rows:[{key:'a',name:'one',kind:'meta'},{key:'a',name:'two',kind:'meta'}]}));
+assert.notEqual(ctx.nwVersion_({link:'same',copy:'old'}),ctx.nwVersion_({link:'same',copy:'new'}));
+console.log('7 sheet validation/date/version checks passed');

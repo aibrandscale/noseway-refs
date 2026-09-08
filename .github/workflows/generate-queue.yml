@@ -1,0 +1,34 @@
+name: Noseway image queue
+on:
+  push:
+    paths: ['jobs/requests/**', 'jobs/reviews/**']
+    branches: [main]
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: noseway-image-queue
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'Pillow==11.3.0'
+      - name: Set commit author
+        run: |
+          git config user.name noseway-bot
+          git config user.email noseway-bot@users.noreply.github.com
+      - name: Generate and persist candidates for visual QA
+        env:
+          KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
+        run: python scripts/pipeline.py worker

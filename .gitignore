@@ -1,2 +1,4 @@
 factory/out/
 factory/logs/
+__pycache__/
+*.pyc
