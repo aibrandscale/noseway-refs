@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08T17:49:36+00:00",
+ "updated_at": "2026-09-08T18:45:49+00:00",
  "account_timezone": "Asia/Istanbul",
  "dates": {
   "2026-09-01": {
@@ -472,7 +472,7 @@
   },
   "2026-09-07": {
    "complete": true,
-   "updated_at": "2026-09-08T17:49:36+00:00",
+   "updated_at": "2026-09-08T18:45:49+00:00",
    "rows": [
     {
      "key": "52513543254402",
@@ -550,25 +550,25 @@
   },
   "2026-09-08": {
    "complete": true,
-   "updated_at": "2026-09-08T17:49:36+00:00",
+   "updated_at": "2026-09-08T18:45:49+00:00",
    "rows": [
     {
      "key": "52513543254402",
      "results": 0,
-     "spend": 1.37,
+     "spend": 1.57,
      "cpa": null,
      "roas": null,
-     "cpc": 0.27,
-     "impressions": 445
+     "cpc": 0.31,
+     "impressions": 509
     },
     {
      "key": "52513543257602",
      "results": 0,
-     "spend": 15.05,
+     "spend": 16.07,
      "cpa": null,
      "roas": null,
      "cpc": 0.5,
-     "impressions": 3100
+     "impressions": 3298
     },
     {
      "key": "52513543269002",
@@ -582,20 +582,20 @@
     {
      "key": "52513543277202",
      "results": 4,
-     "spend": 40.52,
-     "cpa": 10.13,
-     "roas": 3.826505,
+     "spend": 41.97,
+     "cpa": 10.49,
+     "roas": 3.694305,
      "cpc": 0.35,
-     "impressions": 12574
+     "impressions": 13092
     },
     {
      "key": "52513543283802",
      "results": 0,
-     "spend": 0.67,
+     "spend": 0.7,
      "cpa": null,
      "roas": null,
-     "cpc": 0.34,
-     "impressions": 211
+     "cpc": 0.35,
+     "impressions": 226
     },
     {
      "key": "52513543314402",
@@ -604,7 +604,7 @@
      "cpa": null,
      "roas": null,
      "cpc": null,
-     "impressions": 85
+     "impressions": 86
     },
     {
      "key": "52513543338202",
@@ -618,11 +618,11 @@
     {
      "key": "52513543347002",
      "results": 1,
-     "spend": 8.71,
-     "cpa": 8.71,
-     "roas": 4.646383,
-     "cpc": 0.62,
-     "impressions": 2843
+     "spend": 9.4,
+     "cpa": 9.4,
+     "roas": 4.305319,
+     "cpc": 0.63,
+     "impressions": 3036
     }
    ]
   }
