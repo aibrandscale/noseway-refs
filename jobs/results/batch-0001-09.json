@@ -1,0 +1,11 @@
+{
+  "id": "batch-0001-09",
+  "attempt": 1,
+  "status": "submitting",
+  "started_at": "2026-09-08T17:54:04+00:00",
+  "payload_hash": "dc31fcae3833735e27da",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}
