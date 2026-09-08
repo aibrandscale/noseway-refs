@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08T05:43:27+00:00",
+ "updated_at": "2026-09-08T05:55:39+00:00",
  "account": "988945020801127",
  "window": "maximum",
  "rows": [
@@ -263,7 +263,7 @@
   {
    "key": "cr-52",
    "name": "52 Свободен нос цяла нощ",
-   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/52-svoboden-nos-cyala-nosht.jpg",
+   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/52-svoboden-nos-cyala-nosht-v2.jpg",
    "status": "On hold",
    "cpa": null,
    "roas": null,
@@ -274,7 +274,7 @@
    "kind": "creative",
    "framework": "PAS",
    "copy": "Лягаш, носът се запушва и дишаш през уста цяла нощ. Сутрин си разбит, а партньорът ти — още повече от хъркането.\nNoseway отваря носа механично, докато спиш — без спрей, без хапче. Слагаш я за 3 секунди и я забравяш до сутринта.\nСвободен нос, цяла нощ, още от първата вечер.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
-   "reworked": false
+   "reworked": true
   }
  ]
 }
