@@ -1,12 +1,14 @@
 {
   "id": "batch-0001-09",
   "attempt": 1,
-  "status": "submitted",
+  "status": "generated",
   "started_at": "2026-09-08T17:54:04+00:00",
   "payload_hash": "dc31fcae3833735e27da",
   "refs": [
     "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
     "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
   ],
-  "task_id": "d9530e606dd9c987bee59ba425b44230"
+  "task_id": "d9530e606dd9c987bee59ba425b44230",
+  "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/batch-0001-09-v1.jpg",
+  "completed_at": "2026-09-08T17:55:32+00:00"
 }
