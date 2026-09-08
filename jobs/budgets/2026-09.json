@@ -1,4 +1,4 @@
 {
-  "reserved": 48,
+  "reserved": 49,
   "note": "Conservative starting reservation: 39 local + 2 GitHub historical generations. New submissions reserve before API call."
 }
