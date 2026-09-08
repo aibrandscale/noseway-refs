@@ -1,0 +1,15 @@
+{
+  "title": "56 Будиш се в 4 сутринта",
+  "framework": "PAS",
+  "prompt": "Lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch on a nightstand in sharp focus in the foreground, lit by warm lamp light at night; softly blurred background shows a man sitting up in bed at night looking tired, a digital clock visible nearby. EXACT AD TEXT (overlay only, not packaging): \"Пак се събуди в 4?\" / \"Носът се запушва, докато спиш.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Пак се събуди посред нощ и не можеш да заспиш отново? Легнал, носът се запушва и тялото те буди, за да си поемеш въздух.\n\nNoseway държи носа отворен механично, докато спиш, вместо да те буди на всеки няколко часа.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-04",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-04",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}

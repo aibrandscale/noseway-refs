@@ -1,0 +1,15 @@
+{
+  "title": "57 Възстановяване след тренировка",
+  "framework": "4 U's",
+  "prompt": "Lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch on a nightstand in sharp focus in the foreground; softly blurred background shows an athletic man resting peacefully in bed at night with a gym bag visible nearby. EXACT AD TEXT (overlay only, not packaging): \"Възстановяване започва през нощта.\" / \"Дишай свободно, докато тялото си почива.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Тялото ти се възстановява през нощта, не по време на тренировката. Ако носът се запушва, докато спиш, дишането през уста те буди и прекъсва съня точно когато имаш най-голяма нужда от почивка.\n\nNoseway разтваря ноздрите механично, за да дишаш свободно цяла нощ.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-05",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-05",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}

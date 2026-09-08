@@ -1,0 +1,15 @@
+{
+  "title": "54 Три пружинки, една нощ",
+  "framework": "FAB",
+  "prompt": "Clean product-lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch as the dominant subject, sharp focus, with the white nose strip floating beside it clearly showing its three raised ribbed springs; soft minimal studio background, no extra props. EXACT AD TEXT (overlay only, not packaging): \"3 пружинки. Отворен нос.\" / \"Механично, не химично.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Три силиконови пружинки в мека лепенка разтварят ноздрите отвън. Резултат: дишаш свободно цяла нощ, без спрей, без хапче, без навикване.\n\n30 броя в опаковка — цял месец спокойни нощи.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-02",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-02",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}

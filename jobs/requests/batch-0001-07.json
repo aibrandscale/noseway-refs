@@ -1,0 +1,15 @@
+{
+  "title": "59 Тридесет нощи",
+  "framework": "STAR",
+  "prompt": "Lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch standing beside a calendar page showing a full month, sharp focus in the foreground; softly blurred background shows a man sleeping peacefully in soft blue night lighting. EXACT AD TEXT (overlay only, not packaging): \"30 лепенки, 30 нощи.\" / \"Един месец свободно дишане.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Ситуация: цял месец нощи, в които дишаш през уста и се събуждаш разбит. Действие: една лепенка Noseway всяка вечер, за 3 секунди.\n\nРезултат: 30 нощи свободно дишане от една опаковка.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-07",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-07",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}

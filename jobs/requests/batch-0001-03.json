@@ -1,0 +1,15 @@
+{
+  "title": "55 Преди лягане",
+  "framework": "4 Ps",
+  "prompt": "Lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch standing on a bathroom sink counter in sharp focus in the foreground; softly blurred background shows a man's calm nighttime bathroom routine near a mirror with warm lamp light. EXACT AD TEXT (overlay only, not packaging): \"3 секунди преди сън.\" / \"Част от вечерния ритуал.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Обещаваме ти по-лесно дишане само за 3 секунди, преди да загасиш лампата. Представи си как заспиваш веднага, без да се обръщаш и въртиш заради запушен нос.\n\nNoseway отваря носа механично, а не с химия. Добави я към вечерния си ритуал тази вечер.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-03",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-03",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}

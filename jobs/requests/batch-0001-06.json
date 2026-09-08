@@ -1,0 +1,15 @@
+{
+  "title": "58 Пътуване без хъркане",
+  "framework": "BAB",
+  "prompt": "Lifestyle Bulgarian static ad. Large front-facing Noseway hero pouch on a hotel nightstand in sharp focus in the foreground next to a lamp; softly blurred background shows a man sleeping peacefully in an unfamiliar room with an open suitcase in the corner. EXACT AD TEXT (overlay only, not packaging): \"Хъркането не пътува с теб.\" / \"Свободен нос, където и да си.\" / \"Вземи 2 опаковки, третата е подарък.\"",
+  "copy": "Преди: непозната стая и дишане през уста, което те буди в хотела. Noseway пътува с теб и отваря носа механично, без спрей, без хапче.\n\nСлагаш я за 3 секунди, където и да пренощуваш.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+  "id": "batch-0001-06",
+  "kind": "batch",
+  "batch_id": "batch-0001",
+  "key": "cr-batch-0001-06",
+  "created_at": "2026-09-08T17:53:01+00:00",
+  "refs": [
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/pack/nose-strips-pack.png",
+    "https://raw.githubusercontent.com/aibrandscale/noseway-refs/009d8f2fa099cf4fac72a085e5ad01746952845c/nose/strip/nose-strips.png"
+  ]
+}
