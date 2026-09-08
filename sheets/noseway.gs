@@ -19,6 +19,7 @@ function nwValidate_(data){
   });
 }
 function nwVersion_(r){return JSON.stringify([r.link||'',r.copy||'']);}
+function nwSection_(e){const row=Array(14).fill('');row[0]=e.section;row[11]='section:'+e.section;row[13]=e.batch||'';return row;}
 function nwDate_(v){
   if(v instanceof Date)return Utilities.formatDate(v,nwBook_().getSpreadsheetTimeZone(),'yyyy-MM-dd');
   const s=String(v||'Whole period').trim();if(s==='Whole period')return s;
@@ -77,7 +78,7 @@ function syncNoseway(){
       const start=entries.length+5;rs.forEach(r=>entries.push({row:r}));groups.push({id,start,count:rs.length});
     });
     const body=entries.map(e=>{
-      if(e.section)return [e.section,'','','','','','','','','','section:'+e.section,'',e.batch||''];
+      if(e.section)return nwSection_(e);
       const r=e.row,m=e.metrics||{},v=nwVersion_(r);let approval='—',fix='—';
       if(r.kind==='creative'){
         const prev=db.state[r.key];const changed=prev&&prev.version!==v;
