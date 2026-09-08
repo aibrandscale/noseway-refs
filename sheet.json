@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T17:58:29+00:00",
+  "updated_at": "2026-09-08T18:00:38+00:00",
   "account": "988945020801127",
   "window": "maximum",
   "rows": [
@@ -609,6 +609,43 @@
           "feedback_applied": true
         },
         "reviewed_at": "2026-09-08T17:57:32+00:00"
+      }
+    },
+    {
+      "cpa": null,
+      "roas": null,
+      "cpc": null,
+      "spend": null,
+      "impressions": null,
+      "results": null,
+      "key": "cr-batch-0001-06",
+      "kind": "creative",
+      "name": "58 Пътуване без хъркане",
+      "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/batch-0001-06-v2.jpg",
+      "copy": "Преди: непозната стая и дишане през уста, което те буди в хотела. Noseway пътува с теб и отваря носа механично, без спрей, без хапче.\n\nСлагаш я за 3 секунди, където и да пренощуваш.\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+      "framework": "BAB",
+      "batch_id": "batch-0001",
+      "created_at": "2026-09-08T17:53:01+00:00",
+      "updated_at": "2026-09-08T18:00:38+00:00",
+      "version": 2,
+      "generation_id": "batch-0001-06",
+      "reworked": false,
+      "status": "On hold",
+      "qa": {
+        "id": "batch-0001-06",
+        "attempt": 2,
+        "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/batch-0001-06-v2.jpg",
+        "decision": "accept",
+        "feedback": "Retry resolved the typography issue: text is now bold, clean sans-serif, fully legible and correctly spelled ('Хъркането не пътува с теб.' / 'Свободен нос, където и да си.' / offer). Packaging matches reference (NOSEWAY lettering, turquoise flourish, adult male line-drawing face, strip, all packaging text). Exactly one hero pouch, real strip beside it, hotel travel scene intact. Offer phrase present verbatim.",
+        "checks": {
+          "packaging": true,
+          "logo": true,
+          "one_pack": true,
+          "bulgarian_text": true,
+          "offer": true,
+          "feedback_applied": true
+        },
+        "reviewed_at": "2026-09-08T18:00:38+00:00"
       }
     }
   ]
