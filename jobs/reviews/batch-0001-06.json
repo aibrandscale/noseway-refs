@@ -1,0 +1,16 @@
+{
+  "id": "batch-0001-06",
+  "attempt": 1,
+  "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/batch-0001-06-v1.jpg",
+  "decision": "retry",
+  "feedback": "Packaging and scene are correct (one hero pouch, real strip, hotel travel scene, offer present), but the ad text is rendered in a decorative italic/serif script font that is hard to verify letter-by-letter. Re-render with the SAME plain, bold, high-contrast sans-serif typography used in the sibling creatives in this batch (large clean white sans-serif letters, left-aligned, high legibility) for the exact text: 'Хъркането не пътува с теб.' / 'Свободен нос, където и да си.' / 'Вземи 2 опаковки, третата е подарък.' Keep everything else in the image unchanged.",
+  "checks": {
+    "packaging": false,
+    "logo": false,
+    "one_pack": false,
+    "bulgarian_text": false,
+    "offer": false,
+    "feedback_applied": false
+  },
+  "reviewed_at": "2026-09-08T17:57:46+00:00"
+}

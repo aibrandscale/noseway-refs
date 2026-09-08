@@ -1,0 +1,16 @@
+{
+  "id": "batch-0001-10",
+  "attempt": 1,
+  "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/batch-0001-10-v1.jpg",
+  "decision": "accept",
+  "feedback": "Packaging matches reference: white NOSEWAY lettering, turquoise flourish, adult male line-drawing face with strip, white strip graphic, '30 БРОЯ ЛЕПЕНКИ'/'ЛЕПЕНКИ ЗА НОС'/'ЗА СВОБОДНО ДИШАНЕ' all present and correctly spelled. Exactly one hero pouch, no extra pouches. Ad text matches the requested concept exactly and is spelled correctly. Offer phrase present verbatim. No prices, reviews, stars, or fabricated claims.",
+  "checks": {
+    "packaging": true,
+    "logo": true,
+    "one_pack": true,
+    "bulgarian_text": true,
+    "offer": true,
+    "feedback_applied": true
+  },
+  "reviewed_at": "2026-09-08T17:57:32+00:00"
+}
