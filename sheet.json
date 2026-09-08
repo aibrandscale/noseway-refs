@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08T06:15:07+00:00",
+ "updated_at": "2026-09-08T06:42:56+00:00",
  "account": "988945020801127",
  "window": "maximum",
  "rows": [
@@ -156,7 +156,7 @@
   {
    "key": "cr-41",
    "name": "41 Двойното заглавие",
-   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-07/41-dvoino-zaglavie.jpg",
+   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/41-dvoino-zaglavie-v2.jpg",
    "status": "On hold",
    "cpa": null,
    "roas": null,
@@ -166,7 +166,8 @@
    "results": null,
    "kind": "creative",
    "framework": "PPP",
-   "copy": "Представи си утре да станеш без пресъхнала уста и без умора.\n\nОбещаваме ти свободен нос цяла нощ, още от първата вечер.\n\n14 дни гаранция — ако не проработи, връщаш я без въпроси.\n\n3 опаковки на цената на 2.\n👉 https://noseway.bg/produkti/lepenki-za-nos/"
+   "copy": "Представи си утре да станеш без пресъхнала уста и без умора.\n\nОбещаваме ти свободен нос цяла нощ, още от първата вечер.\n\n14 дни гаранция — ако не проработи, връщаш я без въпроси.\n\n3 опаковки на цената на 2.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+   "reworked": true
   },
   {
    "key": "cr-42",
@@ -186,8 +187,8 @@
   },
   {
    "key": "cr-43",
-   "name": "43 Цитати от клиенти",
-   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-07/43-citati.jpg",
+   "name": "43 Спри да се будиш",
+   "link": "https://raw.githubusercontent.com/aibrandscale/noseway-refs/main/creatives-2026-09-08/43-spri-da-se-budish-v2.jpg",
    "status": "On hold",
    "cpa": null,
    "roas": null,
@@ -197,7 +198,8 @@
    "results": null,
    "kind": "creative",
    "framework": "PAS",
-   "copy": "Будиш ли се в три през нощта и после не можеш да заспиш?\n\nНе е стрес, не е кафето. Легнал, носът се запушва и тялото те буди, за да си поемеш въздух. Всяка нощ. На другия ден си разбит.\n\nNoseway държи носа отворен механично, докато спиш.\n\nВземи 2, получи 1 безплатно.\n👉 https://noseway.bg/produkti/lepenki-za-nos/"
+   "copy": "Будиш ли се в три през нощта и после не можеш да заспиш?\n\nНе е стрес, не е кафето. Легнал, носът се запушва и тялото те буди, за да си поемеш въздух. Всяка нощ. На другия ден си разбит.\n\nNoseway държи носа отворен механично, докато спиш.\n\nВземи 2 опаковки, третата е подарък.\n👉 https://noseway.bg/produkti/lepenki-za-nos/",
+   "reworked": true
   },
   {
    "key": "cr-44",
