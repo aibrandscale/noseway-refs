@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T23:45:11+00:00",
+  "updated_at": "2026-09-09T00:45:03+00:00",
   "account_timezone": "Asia/Istanbul",
   "dates": {
     "2026-09-01": {
@@ -550,7 +550,7 @@
     },
     "2026-09-08": {
       "complete": true,
-      "updated_at": "2026-09-08T23:45:11+00:00",
+      "updated_at": "2026-09-09T00:45:03+00:00",
       "rows": [
         {
           "key": "52513543254402",
@@ -582,11 +582,11 @@
         {
           "key": "52513543277202",
           "results": 4,
-          "spend": 45.23,
+          "spend": 45.25,
           "cpa": 11.31,
-          "roas": 3.428034,
+          "roas": 3.426519,
           "cpc": 0.36,
-          "impressions": 14056
+          "impressions": 14058
         },
         {
           "key": "52513543283802",
@@ -628,7 +628,7 @@
     },
     "2026-09-09": {
       "complete": false,
-      "updated_at": "2026-09-08T23:45:11+00:00",
+      "updated_at": "2026-09-09T00:45:03+00:00",
       "rows": [
         {
           "key": "52513543254402",
@@ -642,11 +642,11 @@
         {
           "key": "52513543257602",
           "results": 0,
-          "spend": 0.53,
+          "spend": 0.57,
           "cpa": null,
           "roas": null,
           "cpc": null,
-          "impressions": 110
+          "impressions": 123
         },
         {
           "key": "52513543269002",
@@ -660,11 +660,11 @@
         {
           "key": "52513543277202",
           "results": 0,
-          "spend": 0.79,
+          "spend": 0.95,
           "cpa": null,
           "roas": null,
-          "cpc": 0.26,
-          "impressions": 251
+          "cpc": 0.32,
+          "impressions": 298
         },
         {
           "key": "52513543283802",
@@ -696,11 +696,11 @@
         {
           "key": "52513543347002",
           "results": 0,
-          "spend": 0.21,
+          "spend": 0.25,
           "cpa": null,
           "roas": null,
-          "cpc": null,
-          "impressions": 57
+          "cpc": 0.25,
+          "impressions": 68
         }
       ]
     }
