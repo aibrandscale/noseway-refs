@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T02:48:58+00:00",
+  "updated_at": "2026-09-09T03:44:36+00:00",
   "account_timezone": "Asia/Istanbul",
   "dates": {
     "2026-09-01": {
@@ -550,52 +550,25 @@
     },
     "2026-09-08": {
       "complete": true,
-      "updated_at": "2026-09-09T02:48:58+00:00",
+      "updated_at": "2026-09-09T03:44:36+00:00",
       "rows": [
-        {
-          "key": "52513543254402",
-          "results": 0,
-          "spend": 1.85,
-          "cpa": null,
-          "roas": null,
-          "cpc": 0.31,
-          "impressions": 593
-        },
         {
           "key": "52513543257602",
           "results": 0,
-          "spend": 18.24,
+          "spend": 18.29,
           "cpa": null,
           "roas": null,
           "cpc": 0.49,
-          "impressions": 3773
+          "impressions": 3775
         },
         {
-          "key": "52513543269002",
-          "results": 0,
-          "spend": 0.42,
-          "cpa": null,
-          "roas": null,
-          "cpc": 0.42,
-          "impressions": 97
-        },
-        {
-          "key": "52513543277202",
-          "results": 4,
-          "spend": 45.28,
-          "cpa": 11.32,
-          "roas": 3.424249,
-          "cpc": 0.37,
-          "impressions": 14064
-        },
-        {
-          "key": "52513543283802",
-          "results": 0,
-          "spend": 0.72,
-          "cpa": null,
-          "roas": null,
-          "cpc": 0.36,
-          "impressions": 237
+          "key": "52513543347002",
+          "results": 1,
+          "spend": 10.23,
+          "cpa": 10.23,
+          "roas": 3.956012,
+          "cpc": 0.57,
+          "impressions": 3380
         },
         {
           "key": "52513543314402",
@@ -607,6 +580,15 @@
           "impressions": 86
         },
         {
+          "key": "52513543254402",
+          "results": 0,
+          "spend": 1.85,
+          "cpa": null,
+          "roas": null,
+          "cpc": 0.31,
+          "impressions": 593
+        },
+        {
           "key": "52513543338202",
           "results": 0,
           "spend": 0.38,
@@ -616,64 +598,55 @@
           "impressions": 72
         },
         {
-          "key": "52513543347002",
-          "results": 1,
-          "spend": 10.23,
-          "cpa": 10.23,
-          "roas": 3.956012,
-          "cpc": 0.57,
-          "impressions": 3379
+          "key": "52513543283802",
+          "results": 0,
+          "spend": 0.72,
+          "cpa": null,
+          "roas": null,
+          "cpc": 0.36,
+          "impressions": 237
+        },
+        {
+          "key": "52513543277202",
+          "results": 4,
+          "spend": 45.36,
+          "cpa": 11.34,
+          "roas": 3.41821,
+          "cpc": 0.37,
+          "impressions": 14073
+        },
+        {
+          "key": "52513543269002",
+          "results": 0,
+          "spend": 0.42,
+          "cpa": null,
+          "roas": null,
+          "cpc": 0.42,
+          "impressions": 97
         }
       ]
     },
     "2026-09-09": {
       "complete": false,
-      "updated_at": "2026-09-09T02:48:58+00:00",
+      "updated_at": "2026-09-09T03:44:36+00:00",
       "rows": [
-        {
-          "key": "52513543254402",
-          "results": 0,
-          "spend": 0.0,
-          "cpa": null,
-          "roas": null,
-          "cpc": null,
-          "impressions": 2
-        },
         {
           "key": "52513543257602",
           "results": 0,
-          "spend": 0.65,
+          "spend": 1.09,
           "cpa": null,
           "roas": null,
           "cpc": null,
-          "impressions": 150
+          "impressions": 214
         },
         {
-          "key": "52513543269002",
+          "key": "52513543347002",
           "results": 0,
-          "spend": 0.0,
+          "spend": 0.37,
           "cpa": null,
           "roas": null,
-          "cpc": null,
-          "impressions": 0
-        },
-        {
-          "key": "52513543277202",
-          "results": 0,
-          "spend": 1.3,
-          "cpa": null,
-          "roas": null,
-          "cpc": 0.33,
-          "impressions": 431
-        },
-        {
-          "key": "52513543283802",
-          "results": 0,
-          "spend": 0.0,
-          "cpa": null,
-          "roas": null,
-          "cpc": null,
-          "impressions": 1
+          "cpc": 0.37,
+          "impressions": 96
         },
         {
           "key": "52513543314402",
@@ -685,6 +658,15 @@
           "impressions": 1
         },
         {
+          "key": "52513543254402",
+          "results": 0,
+          "spend": 0.0,
+          "cpa": null,
+          "roas": null,
+          "cpc": null,
+          "impressions": 4
+        },
+        {
           "key": "52513543338202",
           "results": 0,
           "spend": 0.0,
@@ -694,13 +676,31 @@
           "impressions": 0
         },
         {
-          "key": "52513543347002",
+          "key": "52513543283802",
           "results": 0,
-          "spend": 0.32,
+          "spend": 0.0,
           "cpa": null,
           "roas": null,
-          "cpc": 0.32,
-          "impressions": 76
+          "cpc": null,
+          "impressions": 1
+        },
+        {
+          "key": "52513543277202",
+          "results": 0,
+          "spend": 2.28,
+          "cpa": null,
+          "roas": null,
+          "cpc": 0.38,
+          "impressions": 667
+        },
+        {
+          "key": "52513543269002",
+          "results": 0,
+          "spend": 0.0,
+          "cpa": null,
+          "roas": null,
+          "cpc": null,
+          "impressions": 0
         }
       ]
     }
