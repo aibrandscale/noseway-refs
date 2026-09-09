@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T00:44:42+00:00",
+  "updated_at": "2026-09-09T01:13:04+00:00",
   "account": "988945020801127",
   "window": "maximum",
   "rows": [
@@ -9,15 +9,15 @@
       "link": "",
       "status": "Running",
       "cpa": 8.01,
-      "roas": 4.732469,
+      "roas": 4.728381,
       "cpc": 0.33,
-      "spend": 104.1,
-      "impressions": 30689,
+      "spend": 104.19,
+      "impressions": 30715,
       "results": 13,
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543257602",
@@ -25,15 +25,15 @@
       "link": "",
       "status": "Running",
       "cpa": 18.55,
-      "roas": 1.667835,
+      "roas": 1.667385,
       "cpc": 0.5,
-      "spend": 37.09,
-      "impressions": 7575,
+      "spend": 37.1,
+      "impressions": 7579,
       "results": 2,
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543254402",
@@ -44,12 +44,12 @@
       "roas": null,
       "cpc": 0.49,
       "spend": 10.72,
-      "impressions": 2948,
+      "impressions": 2949,
       "results": 0,
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543283802",
@@ -60,28 +60,28 @@
       "roas": 8.372093,
       "cpc": 0.47,
       "spend": 4.73,
-      "impressions": 1277,
+      "impressions": 1278,
       "results": 1,
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543347002",
       "name": "Ad8 | Chista stoynost",
       "link": "",
       "status": "Running",
-      "cpa": 20.4,
-      "roas": 1.983824,
+      "cpa": 20.44,
+      "roas": 1.979941,
       "cpc": 0.43,
-      "spend": 20.4,
-      "impressions": 6554,
+      "spend": 20.44,
+      "impressions": 6556,
       "results": 1,
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543314402",
@@ -97,7 +97,7 @@
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543338202",
@@ -113,7 +113,7 @@
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "52513543269002",
@@ -129,7 +129,7 @@
       "adset": "Bofu | BATCH 8 | Statics | Promo 2+1 | PDP | 07.09",
       "campaign": "Nose Strips CBO Campaign",
       "kind": "meta",
-      "updated_at": "2026-09-09T00:44:42+00:00"
+      "updated_at": "2026-09-09T01:13:04+00:00"
     },
     {
       "key": "cr-39",
