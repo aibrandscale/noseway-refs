@@ -1,0 +1,44 @@
+name: Noseway OS Meta sync
+on:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: noseway-os-meta-sync
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refresh the private Noseway report
+        env:
+          SITE_GATEWAY_TOKEN: ${{ secrets.NOSEWAY_OS_GATEWAY_TOKEN }}
+          SITE_SYNC_KEY: ${{ secrets.NOSEWAY_OS_SYNC_KEY }}
+        shell: python
+        run: |
+          import json, os, urllib.request, urllib.error
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, *args, **kwargs):
+                  return None
+          gateway = os.environ['SITE_GATEWAY_TOKEN']
+          key = os.environ['SITE_SYNC_KEY']
+          if not gateway or not key:
+              raise SystemExit('Missing configured sync credentials')
+          req = urllib.request.Request(
+              'https://noseway-creative-os.stefanov-socials.chatgpt.site/api/meta-sync',
+              data=b'{}', method='POST',
+              headers={'Content-Type': 'application/json',
+                       'OAI-Sites-Authorization': 'Bearer ' + gateway,
+                       'X-Noseway-Sync-Key': key})
+          try:
+              with urllib.request.build_opener(NoRedirect).open(req, timeout=150) as response:
+                  data = json.load(response)
+              if data.get('ok') is not True:
+                  raise SystemExit('Sync did not confirm success')
+              print('Report already fresh' if data.get('skipped') else 'Report refreshed')
+          except urllib.error.HTTPError as error:
+              raise SystemExit('Sync HTTP error: ' + str(error.code))
+          except (OSError, ValueError):
+              raise SystemExit('Sync network or response error')
